@@ -1,0 +1,47 @@
+.logo h1 {
+    font-size: 40px;
+    font-weight: 400px;
+    margin: 0px;
+}
+
+.header {
+    margin-top: 25px;
+
+}
+
+.logo h1 span:first-of-type {
+    padding: 0 12px;
+    border: 1px solid #ddd;
+    color: #D9A196;
+    margin-right: 5px;
+}
+
+.search-product input {
+    width: 70%;
+    height: 38.4px;
+    border-radius: 0;
+    border: 1px solid #ddd;
+    padding: 0 0 0 10px;
+    font-size: 18px;
+    border-right: none;
+
+}
+.search-product input:focus {
+       outline: none;
+}
+
+.search-product button {
+    height: 40px;
+    font-size: 18px;
+    border-radius: 0;
+    border: 1px solid #ddd;
+    margin-left: -6px;
+    padding: 0 2px 0 2px;
+    color: #D9A196;
+    background-color: #fff;
+}
+
+.selected-product {
+    text-align: right;
+    
+}
