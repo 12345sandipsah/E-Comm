@@ -6,6 +6,7 @@
 
 .header {
     margin-top: 25px;
+    min-height: 60px;
 
 }
 
@@ -44,4 +45,21 @@
 .selected-product {
     text-align: right;
     
+}
+.full-banner-container{
+    border-top:1px solid #ddd;
+}
+.list-header{
+    height:65px;
+    background-color: #D9A196;
+}
+.list-header h4{
+    display: inline-block;
+    margin-left: 40px;
+    margin-right:40px;
+    font-weight: 500px;
+}
+.list-header span{
+    float: right;
+    padding: 28px;
 }
