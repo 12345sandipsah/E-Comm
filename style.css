@@ -63,3 +63,18 @@
     float: right;
     padding: 28px;
 }
+.shop-menu{
+   display: flex;
+}
+.left-menu-list{
+    width: 70%;
+    float:left;
+}
+.right-menu-list{
+    width:30%;
+    direction: rtl;
+}
+
+.dropdown-head:hover ul.dropdown {
+       display: block;
+}

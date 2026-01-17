@@ -22,6 +22,8 @@ body {
     width: 50%;
 }
 
+
+
 .common_btn {
     height: 40px;
     border: 1px solid #ddd;
@@ -64,3 +66,30 @@ body {
 }
 
 
+.shop-menu ul{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    
+}
+.left-menu-list .dropdown-head .dropdown{
+    display: none;
+    border:1px solid #ddd;
+    position: absolute;
+    box-shadow: #ddd 1px 1px 3px;
+}
+
+.shop-menu ul li {
+    min-height: 50px;
+    padding: 20px;
+
+}
+
+.shop-menu ul li a{
+    color:#333;
+    text-decoration: none;
+}
+.shop-menu ul li a:hover{
+    color:#D9A196;
+}
